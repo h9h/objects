@@ -1,6 +1,7 @@
 {
   "name": "@h9h/objects",
-  "version": "0.1.2",
+  "version": "0.1.4",
+  "repository": "https://github.com/h9h/objects.git",
   "main": "./lib/index.js",
   "description": "Utility methods for manipulating and working with objects",
   "keywords": [
@@ -89,7 +90,6 @@
     "build": "babel src/ -d lib/",
     "prepare": "yarn run build",
     "prepublishOnly": "yarn test && yarn lint && yarn test:lib",
-    "publish": "yarn publish --access public",
     "test": "jest",
     "test:lib": "yarn prepare && jest --config=./jest.lib.config.json"
   },

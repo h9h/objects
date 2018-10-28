@@ -63,3 +63,19 @@ becomes
   ],
 }
 ```
+
+## Visitors
+
+### getAtPath, getAtParent, getValues
+
+Method to easily get Values from a deeply nested object
+
+### visit
+
+Method to apply a funtion to all elements of an object
+
+### pathmap
+
+Maps all keys in a nested object to an array of string-paths.
+Can be used to filter and get values from nested object with getAtPath.
+

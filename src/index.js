@@ -1,2 +1,7 @@
 const generators = require('../lib/generators')
-module.exports = generators
+const visitors = require('../lib/visitors')
+
+module.exports = {
+  generators,
+  visitors
+}
